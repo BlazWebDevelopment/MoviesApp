@@ -1,0 +1,151 @@
+header {
+  padding: 0;
+  margin-bottom: 5rem;
+}
+
+h1 {
+  margin-bottom: 4rem;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#303030, #858585);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.search{
+  display: flex;
+  justify-content: center;
+  margin-top: -3rem;
+
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links li {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  
+}
+
+.nav-links a.active {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  width: 14rem;
+  margin-bottom: 3rem;
+}
+
+.search-input {
+  border: none;
+  border-radius: 20px;
+  padding: 5px;
+  margin-right: 10px;
+  margin: 3px;
+  background-color: transparent;ž
+}
+.search-input:focus {
+  outline: none;
+}
+
+.search-input::placeholder {
+  color: #acacac;
+  font-size: 15px;
+  padding-left: 5px;
+}
+
+.search-btn {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  padding-right: 5px;
+}
+
+.search-btn img {
+  width: 20px;
+  height: 20px;
+  padding-right: 5px;
+  padding-top: 3px;
+}
+
+form {
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.logReg-btn {
+  margin-top: -10px;
+  margin-bottom: 2rem;
+  color: #ffffff;
+  font-size: 20px;
+
+}
+
+.login-btn{
+  margin: 2rem;
+  color: rgb(98, 184, 255);
+  font-weight: 400;
+  font-style: oblique;
+}
+
+.register-btn{
+  color: rgb(98, 184, 255);
+  margin: 2rem;
+  font-weight: 400;
+  font-style: oblique;
+}
+
+.login-btn:hover{
+  color: white;
+
+}
+
+.register-btn:hover{
+  color: white;
+
+}
+
+.logout{
+  font-size: 22px;
+  margin: 20px;
+  color: rgb(97, 134, 255);
+  border: none;
+  background-color: transparent;
+  border-radius: 20px;
+  font-style: oblique;
+
+}
+
+.logout:hover{
+color: white;  cursor: pointer;
+font-style: oblique;
+}

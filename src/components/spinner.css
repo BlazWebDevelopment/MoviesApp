@@ -1,0 +1,102 @@
+.spinner-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.spinner {
+  width: 11.2px;
+  height: 11.2px;
+  border-radius: 11.2px;
+  box-shadow: 28px 0px 0 0 rgba(0, 112, 255, 0.2),
+    22.7px 16.5px 0 0 rgba(0, 112, 255, 0.4),
+    8.68px 26.6px 0 0 rgba(0, 112, 255, 0.6),
+    -8.68px 26.6px 0 0 rgba(0, 112, 255, 0.8), -22.7px 16.5px 0 0 #0070ff;
+  animation: spinner-b87k6z 1s infinite linear;
+}
+
+@keyframes spinner-b87k6z {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.error {
+  color: white;
+  font-size: 30px;
+}
+
+.return-div {
+  display: flex;
+  justify-content: center;
+}
+.return-btn {
+  width: 10rem;
+  margin: 0;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.return-btn {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.return-btn:hover,
+.nextPage-btn:hover,
+.prevPage-btn:hover {
+  border-color: #008cff;
+}
+.return-btn:focus,
+.return-btn:focus-visible,
+.nextPage-btn:focus,
+.nextPage-btn:focus-visible,
+.prevPage-btn:focus,
+.prevPage-btn:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.pages-btn {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.nextPage-btn,
+.prevPage-btn {
+  width: 7rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.firstPage-btn {
+  width: 7rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 2rem;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}

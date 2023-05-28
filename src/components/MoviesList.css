@@ -1,0 +1,94 @@
+body {
+  color: #8e95a5;
+  font-family: Montserrat, Arial;
+  font-size: 14px;
+  line-height: 1.2em;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  -webkit-text-size-adjust: none;
+  text-align: left;
+}
+
+.movie-wrap {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 11rem;
+  border-radius: 20px;
+  background-color: #383b49;
+  height: 25rem;
+  margin: 10px;
+}
+
+div {
+  display: block;
+}
+
+.movie-poster {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0;
+}
+
+.movie-detail {
+  font-size: 0.9em;
+  text-align: left;
+
+  z-index: 2;
+}
+
+.movie-image {
+  width: 100%;
+  height: auto;
+}
+
+.movie-ratings-icon {
+  padding-left: 10px;
+  width: 20px;
+  display: inline-flex;
+  margin-right: 10px;
+}
+
+.movie-ratings {
+  display: inline-flex;
+  font-size: 16px;
+  margin-top: 3px;
+}
+
+.movie-title {
+  padding-left: 10px;
+  font-size: 14px;
+  text-align: left;
+  font-weight: 200px;
+  margin: 0;
+  color: white;
+  height: 35px;
+}
+
+.movie-btn {
+  width: 10rem;
+  margin: 0;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.btn {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn :hover {
+  border-color: #008cff;
+}
+.btn :focus,
+.btn :focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
