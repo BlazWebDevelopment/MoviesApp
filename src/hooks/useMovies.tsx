@@ -49,18 +49,17 @@ const useMovies = () => {
     const fetchData = async () => {
       await axios
         .get(
-          `https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc`,
+          `https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc&with_genres=28&page=${page}`,
           options
         )
         .then((response) => {
           const data = response.data.results;
-
           setDefaultMovies(data);
           setSearchedMovies(data);
         });
     };
     fetchData();
-  }, []);
+  }, [page]);
 
   useEffect(() => {
     if (!defaultMovies) return;
